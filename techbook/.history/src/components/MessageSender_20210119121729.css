@@ -1,0 +1,8 @@
+.messeageSender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 15px;
+    box-shadow: ;
+}

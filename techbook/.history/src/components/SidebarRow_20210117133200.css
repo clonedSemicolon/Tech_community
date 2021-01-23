@@ -1,0 +1,15 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarRow:hover{
+    background-color: lightgray;
+    border: 10px;
+}
+
+.sidebarRow p{
+    margin-left: ;
+}
