@@ -15,7 +15,8 @@ function App() {
       
       <Sidebar/>
       <Feed/>
-      <Widget/>
+      
+      
 
       </div>
       
@@ -25,5 +26,5 @@ function App() {
 
 export default App;
 
-//avishak_10
-//R0Ju332Xo2mwgqPP
+//avishakcb
+//CiKas0n86a1A7Xsm

@@ -15,9 +15,7 @@ const Post = ({profilePic,imgName,username,timestamp,message}) => {
             <div className="post_bottom">
                 <p>{message}</p>
                 {/*image*/}
-            </div>
-
-            
+            </div>          
         </div>
     )
 }
