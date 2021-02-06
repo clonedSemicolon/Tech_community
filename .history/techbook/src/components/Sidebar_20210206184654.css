@@ -1,0 +1,6 @@
+.sidebar{
+    padding: 25px 10px;
+    flex:0.40;
+    float: left;
+    position: sticky;
+}

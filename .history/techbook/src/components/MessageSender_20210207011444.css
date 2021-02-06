@@ -1,0 +1,64 @@
+.messageSender {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px grey; 
+  max-width: 70%;
+}
+
+.messageSender_top {
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 15px;
+}
+
+.messageSender_top form {
+  flex: 1;
+  display: flex;
+}
+
+.messageSender_top form input {
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: white;
+  width: auto;
+}
+
+.messeageSender_fileSelector {
+  width: 20%;
+}
+
+.messageSender_top form button {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+}
+.messageSender input {
+  flex: 1;
+}
+
+#postbutton{
+  height: 20px;
+  width: 100;
+  background-color: #004AAD;
+  color: #eff2f5;
+  font-weight: 800;
+  border-radius: 20px;
+  
+}
+
+#postbutton:hover{
+  background-color: white;
+  color: #004AAD;
+}
+
+.post_button{
+  padding: 10px 10px 0 0;
+}
