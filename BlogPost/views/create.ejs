@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/header.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+   <div class="create-blog content">
+       <form action="/blogs" method="POST">
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required>
+
+           <label for="email">Email:</label>
+           <input type="text" id="email" name="email" required>
+           <!--  -->
+           <label for="department">Position:</label>
+           <input type="text" id="department" name="department" required>
+           <!--  -->
+           <label for="semester">Status:</label>
+           <input type="text" id="semester" name="semester" required>
+           <!--  -->
+           <label for="contact">Contact:</label>
+           <input type="text" id="contact" name="contact" required>
+
+           <button>Submit</button>
+       </form>
+   </div>
+   <%- include('./partials/footer.ejs') %>
+</body>
+</html>

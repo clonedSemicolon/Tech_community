@@ -1,0 +1,132 @@
+body{
+    max-width: 1680px;
+    margin: 20px,auto;
+    padding: 0 20px;
+    font-family: 'Noto Serif', serif;  
+}
+p, h1, h2, h3, a, ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #222;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+     border-bottom: 3px solid #ddd; 
+    text-transform: Uppercase;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+nav h1{
+    font-size: 3em;
+    padding-left: 200px;
+}
+nav p{
+    color: #777;
+    font-weight: 300;
+    padding-left: 200px;
+}
+nav a{
+    color: #777;
+    font-weight: 300;
+}
+footer{
+    color: #777;
+    text-align: center;
+    margin: 90px auto 20px;
+    margin-top: 300px;
+}
+h2{
+    margin-bottom: 40px;
+    padding-left: 200px;
+    margin-bottom: 70px;
+    /* text-align: center; */
+}
+h3{
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-left: 200px;       
+
+}
+.content{
+    margin-left: 5px;
+}
+/* index styles*/
+.blogs{
+    display: block;
+    margin: 40px 0;
+    padding-left: 70px;
+
+}
+.blogs a:hover h3{
+    color: crimson;
+}
+/*details styles*/
+.details{
+    position: relative;
+}
+.delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 8px;
+}
+.delete:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+.create-blog form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.create-blog input, .create-blog textarea{
+    display: black;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.create-blog label{
+    display: black;
+    margin-top: 24px;
+}
+textarea{
+    height: 150px;
+}
+.create-blog button{
+    margin-top: 10px;
+    background: crimson;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+h2.head{
+    text-align: center ;
+}
+p.email,p.semester,p.contact,p.department1{
+    padding-left: 250px;
+}
+ p.department, p.email{
+    padding-left: 250px;
+} 
+h3.title{
+    padding-left: 250px;
+}
+p.department{
+    padding-bottom: 70px;
+}
+  
